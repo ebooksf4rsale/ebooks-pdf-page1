@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylea.css">
+
+<title>Failing Forward</title>
+<style>
+
+
+
+</style>
+</head>
+<body>
+
+<!-- nav bar -->
+
+<div class="nav">
+    <div class="logo">
+            <h2><span class="log1">eBooks</span><span class="log2">4sale</span></h2>
+           
+    </div>
+    <div class="hamburger" onclick="myFunction()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+    </div>
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="https://ebooksf4rsale.com/">Home</a>
+
+      <!-- dropdpwn -->
+     
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+          
+        </div>
+      </div> 
+   
+      <!-- dropdown -->
+
+      <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+      <a href="https://ebooksf4rsale.com/about" >About Us</a>
+      <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+      <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+     
+    </div>
+    </div>
+
+
+    <div class="topnav2" id="myTopnav2">
+        <a href="https://ebooksf4rsale.com/">Home</a>
+
+         <!-- dropdpwn -->
+    
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+         
+        </div>
+      </div> 
+
+      <!-- dropdown -->
+      
+        <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+        <a href="https://ebooksf4rsale.com/about" >About Us</a>
+        <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+        <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+      </div>
+
+
+
+<!--nav bar  -->
+
+<div class="back">
+    
+    
+</div>
+
+<div class="context">
+   <!--  -->
+   <div class="card">
+    <div>
+    <img src="./failing.jpg">
+    </div>
+    <div class="card-content">
+       <div id="text">
+        
+        <h3 class="price"><span id="price1">Price:</span><span>&#36;</span>6.5 <s id="previous">&#36;12.99</s></h3>
+    </div>
+    <div>
+        <a href="./co16.html" class="btn">Buy Now</a>
+    </div>
+</div>
+</div>
+   <!--  -->
+
+<div class="right">
+    <h2>Failing Forward: Turning Mistakes into Stepping Stones for Success</h2>
+    
+    <div class="author">
+        <p>by John C. Maxwell (Author)   </p>
+        <p>Format: <span>PDF</span></p>
+        </div>
+   
+    <hr>
+   <h3>Are some people born to achieve anything they want while others struggle? What is the real reason for their success? John C. Maxwell has the answer: The difference between average people and achieving people is their perception of and response to failure.</h3>
+   <p>Most people are never prepared to deal with failure. Bestselling author John C. Maxwell says that if you are like him, you feared it, misunderstood it, and ran away from it. However, he has learned to make failure his friend, and he can teach you to do the same.</p>
+   <p>Maxwell takes a closer look at failure and reveals that the secret of moving beyond failure is to use it as a lesson and a stepping-stone.</p>
+   <p>In Failing Forward, Maxwell will show you:
+    <ul class="nobullets">
+        <li>the key main reasons people fail,</li>
+        <li>how to master fear instead of being mastered by it,</li>
+        <li>and positive benefits can accompany negative experiences.</li>
+    </ul>
+   </p>
+   <p>Filled with action suggestions and real-life stores, Failing Forward is a strategic guide that will help you move beyond mistakes to fulfill your potential and achieve success.</p>
+   <p>Discover how to confidently look the prospect of failure in the eye and move forward anyway. In life, the question is not if you will have problems, but how you are going to deal with them? Stop failing backward and start failing forward!!</p>
+
+
+    <hr>
+    <br>
+    <br>
+    
+</div>
+
+</div>
+
+<script>
+
+  hamburger = document.querySelector(".hamburger");
+  hamburger.onclick = function() {
+      topNav = document.querySelector(".topnav2");
+      topNav.classList.toggle("active");
+  }
+
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+
+</body>
+</html>
