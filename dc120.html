@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylea.css">
+
+<title>Grit</title>
+<style>
+
+
+</style>
+</head>
+<body>
+
+<!-- nav bar -->
+
+<div class="nav">
+    <div class="logo">
+            <h2><span class="log1">eBooks</span><span class="log2">4sale</span></h2>
+           
+    </div>
+    <div class="hamburger" onclick="myFunction()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+    </div>
+
+
+    <div class="topnav" id="myTopnav">
+      <a href="https://ebooksf4rsale.com/">Home</a>
+
+      <!-- dropdpwn -->
+     
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+          
+        </div>
+      </div> 
+   
+      <!-- dropdown -->
+
+      <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+      <a href="https://ebooksf4rsale.com/about" >About Us</a>
+      <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+      <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+     
+    </div>
+    </div>
+
+
+    <div class="topnav2" id="myTopnav2">
+        <a href="https://ebooksf4rsale.com/">Home</a>
+
+         <!-- dropdpwn -->
+    
+      <div class="dropdown">
+        <button class="dropbtn">Ebooks 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://ebooksf4rsale.com/ebooks">PDF Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-epub">Epub Format</a>
+          <a href="https://ebooksf4rsale.com/ebooks-multigenre">Multi-Genre</a>
+         
+        </div>
+      </div> 
+
+      <!-- dropdown -->
+      
+        <a href="https://ebooksf4rsale.com/promo" >Promo</a>
+        <a href="https://ebooksf4rsale.com/about" >About Us</a>
+        <a href="https://ebooksf4rsale.com/contact" >Contact Us</a>
+        <a href="https://ebooksf4rsale.com/faq" >FAQ</a>
+      </div>
+
+
+
+<!--nav bar  -->
+
+<div class="back">
+    
+    
+</div>
+
+<div class="context">
+   <!--  -->
+   <div class="card">
+    <div>
+    <img src="./grit.jpg">
+    </div>
+    <div class="card-content">
+       <div id="text">
+        
+        <h3 class="price"><span id="price1">Price:</span><span>&#36;</span>7.5 <s id="previous">&#36;14.99</s></h3>
+    </div>
+    <div>
+        <a href="./co120.html" class="btn">Buy Now</a>
+    </div>
+</div>
+</div>
+   <!--  -->
+
+<div class="right">
+    <h2>Grit: The Power of Passion and Perseverance</h2>
+    
+    <div class="author">
+        <p>by Angela Duckworth (Author) </p>
+        <p>Format: <span>PDF</span></p>
+        </div>
+   
+    <hr>
+    <h3>In this instant New York Times bestseller, Angela Duckworth shows anyone striving to succeed that the secret to outstanding achievement is not talent, but a special blend of passion and persistence she calls “grit.” “Inspiration for non-geniuses everywhere” (People).</h3>
+    <p>The daughter of a scientist who frequently noted her lack of “genius,” Angela Duckworth is now a celebrated researcher and professor. It was her early eye-opening stints in teaching, business consulting, and neuroscience that led to her hypothesis about what really drives success: not genius, but a unique combination of passion and long-term perseverance.</p>
+    <p>In <span>Grit,</span> she takes us into the field to visit cadets struggling through their first days at West Point, teachers working in some of the toughest schools, and young finalists in the National Spelling Bee. She also mines fascinating insights from history and shows what can be gleaned from modern experiments in peak performance. Finally, she shares what she’s learned from interviewing dozens of high achievers—from JP Morgan CEO Jamie Dimon to New Yorker cartoon editor Bob Mankoff to Seattle Seahawks Coach Pete Carroll.</p>
+    <p>“Duckworth’s ideas about the cultivation of tenacity have clearly changed some lives for the better” (The New York Times Book Review). Among Grit’s most valuable insights: any effort you make ultimately counts twice toward your goal; grit can be learned, regardless of IQ or circumstances; when it comes to child-rearing, neither a warm embrace nor high standards will work by themselves; how to trigger lifelong interest; the magic of the Hard Thing Rule; and so much more. Winningly personal, insightful, and even life-changing, Grit is a book about what goes through your head when you fall down, and how that—not talent or luck—makes all the difference. This is “a fascinating tour of the psychological research on success” (The Wall Street Journal).</p>
+    
+
+
+
+    <hr>
+    <br>
+    <br>
+    
+</div>
+
+</div>
+
+<script>
+
+  hamburger = document.querySelector(".hamburger");
+  hamburger.onclick = function() {
+      topNav = document.querySelector(".topnav2");
+      topNav.classList.toggle("active");
+  }
+
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+
+</body>
+</html>
